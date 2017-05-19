@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+  <header class="container">
+    <nav class="head-t">
+      <label for="menu-trigger">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </label>
+      <input type="checkbox" id="menu-trigger" />
+      <ul class="menu1">
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Delivery Information</a></li>
+      </ul>
+      <p>Call us : 123 456 78 90</p>
+    </nav>
+
+    <div class="head-b">
+      <ul class="list1">
+        <li><a href="#" class="logo"></a></li>
+        <li>
+          <ul>
+            <li class="right_b">
+              <ul class="right">
+                <li><a href="#" class="button_l">Login</a></li>
+                <li><a href="#" class="button_r">Register</a></li>
+                <li><p>My Cart ( 0 ) : $0</p></li>
+                <li><a href="#" class="button_c">Checkout</a></li>
+              </ul>
+            </li>
+            <li>
+              <form>
+                <input type="text" class="search" placeholder="Search">
+              </form>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div id="hamburger-menu"><a class="img-replace" href="#">Menu</a></div>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Tuxedo</a></li>
+          <li><a href="#">Sweater</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Glasses</a></li>
+          <li><a href="#">T-Shirt</a></li>
+          <li><a href="#">Watches</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="carusel" class="carusel">
+    <img src="img/img1.jpg" alt="A placeholder image">
+    <img src="img/1a.jpg" alt="A placeholder image">
+    <img src="img/1b.jpg" alt="A placeholder image">
+    <div class="wrapper" id="wrapper">
+    </div>
+    <div class="control_wrapper">
+        <div class="prev_arrow" id="prev">
+        </div>
+        <div class="next_arrow" id="next">
+        </div>
+    </div>
+  </section>
+
+  <section class="arrival">
+    <h3>New arrivals</h3>
+    <ul id="gallery-items" class="container1"></ul>
+  </section>
+
+  <section class="brands">
+    <h3>Brands</h3>
+    <ul>
+      <li><img src="img/bakery.png" alt=""></li>
+      <li><img src="img/lavalier.png" alt=""></li>
+      <li><img src="img/harvets.png" alt=""></li>
+      <li><img src="img/landlock.png" alt=""></li>
+      <li><img src="img/spectrum.png" alt=""></li>
+      <li><img src="img/energy.png" alt=""></li>
+    </ul>
+  </section>
+
+  <section class="photo_pr">
+    <div class="col-6-p">
+      <img src="img/girl.jpg" alt="">
+    </div>
+    <div class="col-6-n">
+      <img src="img/bag.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="news">
+    <h3>News</h3>
+    <ul class="news-n">
+      <li>
+        <article class="n-clearfix">
+          <div class="p1">
+
+          </div>
+          <img src="img/m1.jpg" alt="">
+          <ul>
+            <li><a href="#" class="stone">Stone Clad</a></li>
+            <li><a href="#" class="date">27.01.2017</a></li>
+          </ul>
+          <h4>WE ADDED MANY THINGS YOU MAY LIKE</h4>
+          <p>It is a long established fact that a reader will be distracted.</p>
+          <form>
+            <input type="submit" value="Learn more" class="learn">
+          </form>
+        </article>
+      </li>
+      <li>
+        <article class="n-clearfix">
+          <img src="img/m2.jpg" alt="">
+          <ul>
+            <li><a href="#" class="stone">Stone Clad</a></li>
+            <li><a href="#" class="date">27.01.2017</a></li>
+          </ul>
+          <h4>WE ADDED MANY THINGS YOU MAY LIKE</h4>
+          <p>It is a long established fact that a reader will be distracted.</p>
+          <form>
+            <input type="submit" value="Learn more" class="learn">
+          </form>
+        </article>
+      </li>
+      <li>
+        <article class="n-clearfix">
+          <img src="img/m3.jpg" alt="">
+          <ul>
+            <li><a href="#" class="stone">Stone Clad</a></li>
+            <li><a href="#" class="date">27.01.2017</a></li>
+          </ul>
+          <h4>WE ADDED MANY THINGS YOU MAY LIKE</h4>
+          <p>It is a long established fact that a reader will be distracted.</p>
+          <form>
+            <input type="submit" value="Learn more" class="learn">
+          </form>
+        </article>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h3>Contuct us</h3>
+    <form class="clearfix">
+      <div class="half left clearfix">
+        <input type="text" class="input-name" id="input-name" placeholder="*Name">
+      </div>
+      <div class="half right clearfix">
+        <input type="text" class="input-surname" id="input-email" placeholder="*Surname">
+      </div>
+      <input type="email" class="input-email" id="input-subject" placeholder="*Email">
+      <textarea name="message" type="text" class="input-message" id="input-message" placeholder="Message"></textarea>
+      <p><input type="checkbox" name="option1" value="a1" class="check1" checked>I agree<Br>
+         <input type="checkbox" name="option2" value="a2">Send me news<Br></p>
+      <input type="submit" value="Send" class="input-submit" id="input-submit">
+    </form>
+  </section>
+
+  <footer>
+    <ul class="list">
+      <li>
+        <h5>Shops</h5>
+        <ul>
+          <li><a href="#">New in</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Bags & Accessories</a></li>
+          <li><a href="#">Top Brands</a></li>
+          <li><a href="#">Sale & Special Offers</a></li>
+          <li><a href="#">Lookbook</a></li>
+        </ul>
+      </li>
+      <li>
+        <h5>Information</h5>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">New Collection</a></li>
+          <li><a href="#">Best Sellers</a></li>
+          <li><a href="#">Manufacturers</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms & condition</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </li>
+      <li>
+        <h5>Customer Service</h5>
+        <ul>
+          <li><a href="#">Search Terms</a></li>
+          <li><a href="#">Advanced Search</a></li>
+          <li><a href="#">Orders and Returns</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Rss</a></li>
+          <li><a href="#">Help & FAQs</a></li>
+          <li><a href="#">Consultant</a></li>
+          <li><a href="#">Store Locations</a></li>
+        </ul>
+      </li>
+      <li>
+        <h5>Stay Connected</h5>
+        <ul class="socialn">
+          <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+          <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+          <li><i class="fa fa-rss" aria-hidden="true"></i></li>
+        </ul>
+        <h5>Subscribe in our News Letter</h5>
+        <form>
+          <input type="text" class="email_a" placeholder="Enter Your Email Address">
+        </form>
+        <a href="#" class="button_f">Sybscribe</a>
+      </li>
+    </ul>
+  </footer>
+
+  <script id="productTemplate" type="text/template">
+    <figure class="product">
+        <img />
+    </div>
+    <figcaption>
+    <h3></h3>
+    <div class="price">
+      <s></s>
+    </div>
+  </figcaption>
+  <a href="#"><i class="add"></i></a>
+  </figure>
+  </script>
+
+    <script type="text/javascript" src="js/menu.js">  </script>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/shop.js">  </script>
+</body>
+</html>
