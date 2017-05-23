@@ -654,9 +654,11 @@ header .search {
   font-weight: 300;
 }*/
 .product .price {
+	margin-top: 10px;
   font-weight: 400;
-  font-size: 0.7em;
-  line-height: 10px;
+  /*font-size: 0.7em;*/
+	font-size: 19px;
+  line-height: 15px;
   /*letter-spacing: 1px;*/
 	text-align: left;
 }
@@ -673,6 +675,132 @@ header .search {
   right: 0;
   z-index: 1;
 }
+.product:hover {
+ /*z-index: -1;*/
+ margin: 20px -2%;
+ padding: 15px 15px 110px;
+ /*background: #cdcdcc;*/
+ width: 107%;
+ box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+}
+
+.product:hover .button {
+  display: block;
+  z-index: 2;
+}
+.button {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  /*width: 150px;
+  height: 50px;*/
+  text-align: center;
+  perspective: 1000px;
+}
+
+/*.button {
+  position: absolute;
+  z-index: 2;
+  top: 2px;
+  display: block;
+  width: 50px;
+  height: 46px;
+  border-right: 1px solid #9cdaf0;
+  border-radius: 2px 0 0 2px;
+  background: #fff;
+  line-height: 45px;
+  color: #515151;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.button .number {
+	position: absolute;
+	left: 0;
+	top: 60px;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transform: translateZ(-100px);
+	transition: transform 300ms;
+	cursor: pointer;
+}
+.button .number .size {
+	position: absolute;
+	font-size:0;
+	vertical-align: middle;
+}
+.button .number .size li {
+	display: inline-block;
+	padding: 0 10px 0 0;
+}
+.button .number .size h4 {
+	font-size: 15px;
+}
+.button .number .size > li > ul.size1 > li {
+	display: inline-block;
+	padding: 7px 20px;
+	border: 1px solid #000;
+	text-align: center;
+}
+.button .number .size > li > ul.size1 > li a {
+	display: block;
+	font-size: 15px;
+}*/
+
+table {
+	margin: 57px 15px 0;
+	width: 80%;
+}
+table tr td {
+	padding: 5px 15px;
+	border: solid 1px #000;
+}
+table tr td:first-child {
+	border: 0;
+}
+
+.button .addtocart {
+  position: absolute;
+  left: 0;
+	top: 100px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: translateZ(-100px);
+  transition: transform 300ms;
+  cursor: pointer;
+}
+.button .addtocart > div {
+  position: absolute;
+  display: block;
+	padding: 0 15px;
+  width: 100%;
+  height: 50px;
+  /*border-radius: 0 2px 2px 0;*/
+  line-height: 50px;
+}
+.button .addtocart > .add {
+  background: #000;
+  color: #fff;
+  transform: rotateY(0deg) translateZ(25px);
+  transition: background 150ms ease-out;
+}
+.button .addtocart >.add:hover {
+  background: #494948;
+  color: #fff;
+}
+/*.button .addtocart > .added {
+  background: #f63;
+  color: #fff;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.button .addtocart.active {
+  animation-name: rotate;
+  animation-duration: 1s;
+}*/
 
 
 

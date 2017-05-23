@@ -6,59 +6,59 @@ var products = {
   },
   "1": {
     "name": "SKIRT G-Star RAW",
-    "price": 5520,
+    "price": 1420,
     "picture": "img/2b.jpg"
   },
   "2": {
     "name": "extra mini summer BY OLEANDR SCOTT",
-    "price": 5520,
+    "price": 2030,
     "picture": "img/2c.jpg"
   },
   "3": {
     "name": "SKIRT Pepe Jeans black one",
-    "price": 5520,
+    "price": 4100,
     "picture": "img/2d.jpg"
   },
   "4": {
     "name": "SKIRT G-Star RAW",
-    "price": 5520,
+    "price": 1600,
     "picture": "img/2b.jpg"
   },
   "5": {
     "name": "SKIRT DIESEL",
-    "price": 5520,
+    "price": 1780,
     "oldprice": 53,
     "picture": "img/2e.jpg"
   },
   "6": {
     "name": "SKIRT DIESEL",
-    "price": 5520,
+    "price": 1620,
     "picture": "img/2f.jpg"
   },
   "7": {
     "name": "TOP Tommy Hilfiger",
-    "price": 5520,
+    "price": 2920,
     "picture": "img/2g.jpg"
   },
   "8": {
     "name": "SKIRT DIESEL",
-    "price": 5520,
+    "price": 3820,
     "picture": "img/2h.jpg"
   },
   "9": {
     "name": "SKIRT G-Star RAW",
-    "price": 5520,
+    "price": 4300,
     "oldprice": 43,
     "picture": "img/2j.jpg"
   },
   "10": {
     "name": "SKIRT Tommy Hilfiger mini",
-    "price": 5520,
+    "price": 3700,
     "picture": "img/2d.jpg"
   },
   "11": {
     "name": "SKIRT G-Star RAW",
-    "price": 5520,
+    "price": 3400,
     "picture": "img/2k.jpg"
   }
 };
@@ -151,7 +151,7 @@ $(document).ready(function () {
 
         //$template.find('s').text('$' + product["oldprice"]);
         $template.find('.price').append('$' + product["price"]);
-        $template.find('.prices').text('$' + product["price"]);
+        //$template.find('.prices').text('$' + product["price"]);
 
         $template.data('id', id);
         $template.data('name', product["name"]);
